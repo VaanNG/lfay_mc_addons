@@ -1,0 +1,1340 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "farmers_market",
+				"npc_name": "Farmer's Market",
+				"text": "Welcome to the Farmer's Market. What can I help you with?",
+				"buttons": [
+					{
+						"name": "Buy",
+						"commands": ["/dialogue open @s @initiator farmer_buy"]
+					},
+					{
+						"name": "Sell",
+						"commands": ["/dialogue open @s @initiator farmer_sell"]
+					}
+				]
+			},
+			{
+				"scene_tag": "farmer_buy",
+				"npc_name": "Buying",
+				"text": "What would you like to buy?",
+				"buttons": [
+					{
+						"name": "Growables",
+						"commands": ["/dialogue open @s @initiator farmer_buy_growables"]
+					},
+					{
+						"name": "Meats",
+						"commands": ["/dialogue open @s @initiator farmer_buy_meat"]
+					},
+					{
+						"name": "Misc",
+						"commands": ["/dialogue open @s @initiator farmer_buy_misc"]
+					},
+					{
+						"name": "Plantables",
+						"commands": ["/dialogue open @s @initiator farmer_buy_plantables"]
+					}
+				]
+			},
+			{
+				"scene_tag": "farmer_buy_growables",
+				"npc_name": "Growables",
+				"text": {
+					"rawtext": [
+						{
+							"text": "§lThese are the available Growables at the Farmer's Market\n"
+						},
+						{
+							"text": "§r10 Apples for 10 Moneyz\n"
+						},
+						{
+							"text": "§r10 Beetroot for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Sweet Berries for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Carrots for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Chorus Fruit for 75 Moneyz\n"
+						},
+						{
+							"text": "§r10 Glow Berries for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Melons for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Potatos for 15 Moneyz\n"
+						},
+						{
+							"text": "§r1 Pumpkin for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Sugar Cane for 15 Moneyz\n"
+						},
+						{
+							"text": "§r10 Wheat for 15 Moneyz\n"
+						}
+					]
+				},
+				"buttons": [
+					{
+						"name": "Apples",
+						"commands": ["/function farmer/apple"]
+					},
+					{
+						"name": "Beetroot",
+						"commands": ["/function farmer/beetroot"]
+					},
+					{
+						"name": "Sweet Berries",
+						"commands": ["/function farmer/berries"]
+					},
+					{
+						"name": "Carrots",
+						"commands": ["/function farmer/carrot"]
+					},
+					{
+						"name": "Chours Fruit",
+						"commands": ["/function farmer/chorusfruit"]
+					},
+					{
+						"name": "Pg. 2",
+						"commands": ["/dialogue open @s @initiator farmer_buy_growables_2"]
+					}
+				]
+			},
+			{
+				"scene_tag": "farmer_buy_growables_2",
+				"npc_name": "Growables",
+				"text": {
+					"rawtext": [
+						{
+							"text": "§lThese are the available Growables at the Farmer's Market\n"
+						},
+						{
+							"text": "§r10 Apples for 10 Moneyz\n"
+						},
+						{
+							"text": "§r10 Beetroot for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Sweet Berries for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Carrots for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Chorus Fruit for 75 Moneyz\n"
+						},
+						{
+							"text": "§r10 Glow Berries for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Melons for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Potatos for 15 Moneyz\n"
+						},
+						{
+							"text": "§r1 Pumpkin for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Sugar Cane for 15 Moneyz\n"
+						},
+						{
+							"text": "§r10 Wheat for 15 Moneyz\n"
+						}
+					]
+				},
+				"buttons": [
+					{
+						"name": "Glow Berries",
+						"commands": ["/function farmer/glowberries"]
+					},
+					{
+						"name": "Melons",
+						"commands": ["/function farmer/melon"]
+					},
+					{
+						"name": "Potatos",
+						"commands": ["/function farmer/potato"]
+					},
+					{
+						"name": "Pumpkin",
+						"commands": ["/function farmer/pumpkin"]
+					},
+					{
+						"name": "Pg. 1",
+						"commands": ["/dialogue open @s @initiator farmer_buy_growables"]
+					},
+					{
+						"name": "Pg. 3",
+						"commands": ["/dialogue open @s @initiator farmer_buy_growables_3"]
+					}
+				]
+			},
+			{
+				"scene_tag": "farmer_buy_growables_3",
+				"npc_name": "Growables",
+				"text": {
+					"rawtext": [
+						{
+							"text": "§lThese are the available Growables at the Farmer's Market\n"
+						},
+						{
+							"text": "§r10 Apples for 10 Moneyz\n"
+						},
+						{
+							"text": "§r10 Beetroot for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Sweet Berries for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Carrots for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Chorus Fruit for 75 Moneyz\n"
+						},
+						{
+							"text": "§r10 Glow Berries for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Melons for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Potatos for 15 Moneyz\n"
+						},
+						{
+							"text": "§r1 Pumpkin for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Sugar Cane for 15 Moneyz\n"
+						},
+						{
+							"text": "§r10 Wheat for 15 Moneyz\n"
+						}
+					]
+				},
+				"buttons": [
+					{
+						"name": "Sugar Cane",
+						"commands": ["/function farmer/sugarcane"]
+					},
+					{
+						"name": "Wheat"
+					},
+					{
+						"name": "Pg. 2",
+						"commands": ["/dialogue open @s @initiator farmer_buy_growables_2"]
+					},
+					{
+						"name": "Main Menu",
+						"commands": ["/dialogue open @s @initiator farmers_market"]
+					}
+				],
+				"on_open_commands": ["/function farmer/wheat"]
+			},
+			{
+				"scene_tag": "farmer_buy_meat",
+				"npc_name": "Meats",
+				"text": {
+					"rawtext": [
+						{
+							"text": "§lThese are the available Meats at the Farmer's Market\n"
+						},
+						{
+							"text": "§r5 Beef for 30 Moneyz\n"
+						},
+						{
+							"text": "§r5 Chicken for 20 Moneyz\n"
+						},
+						{
+							"text": "§r5 COD for 15 Moneyz\n"
+						},
+						{
+							"text": "§r5 Mutton for 25 Moneyz\n"
+						},
+						{
+							"text": "§r5 Porkchop for 15 Moneyz\n"
+						},
+						{
+							"text": "§r5 Rabbit for 20 Moneyz\n"
+						},
+						{
+							"text": "§r5 Salmon for 10 Moneyz\n"
+						}
+					]
+				},
+				"buttons": [
+					{
+						"name": "Beef",
+						"commands": ["/function farmer/beef"]
+					},
+					{
+						"name": "Chicken",
+						"commands": ["/function farmer/chicken"]
+					},
+					{
+						"name": "COD",
+						"commands": ["/function farmer/cod"]
+					},
+					{
+						"name": "Mutton",
+						"commands": ["/function farmer/mutton"]
+					},
+					{
+						"name": "Porkchop",
+						"commands": ["/function farmer/porkchop"]
+					},
+					{
+						"name": "Pg. 2",
+						"commands": ["/dialogue open @s @initiator farmer_buy_meat_2"]
+					}
+				]
+			},
+			{
+				"scene_tag": "farmer_buy_meat_2",
+				"npc_name": "Meats",
+				"text": {
+					"rawtext": [
+						{
+							"text": "§lThese are the available Meats at the Farmer's Market\n"
+						},
+						{
+							"text": "§r5 Beef for 30 Moneyz\n"
+						},
+						{
+							"text": "§r5 Chicken for 20 Moneyz\n"
+						},
+						{
+							"text": "§r5 COD for 15 Moneyz\n"
+						},
+						{
+							"text": "§r5 Mutton for 25 Moneyz\n"
+						},
+						{
+							"text": "§r5 Porkchop for 15 Moneyz\n"
+						},
+						{
+							"text": "§r5 Rabbit for 20 Moneyz\n"
+						},
+						{
+							"text": "§r5 Salmon for 10 Moneyz\n"
+						}
+					]
+				},
+				"buttons": [
+					{
+						"name": "Rabbit",
+						"commands": ["/function farmer/rabbit"]
+					},
+					{
+						"name": "Salmon",
+						"commands": ["/function farmer/salmon"]
+					},
+					{
+						"name": "Pg. 1",
+						"commands": ["/dialogue open @s @initiator farmer_buy_meat"]
+					},
+					{
+						"name": "Main Menu",
+						"commands": ["/dialogue open @s @initiator farmers_market"]
+					}
+				]
+			},
+			{
+				"scene_tag": "farmer_buy_misc",
+				"npc_name": "Misc",
+				"text": {
+					"rawtext": [
+						{
+							"text": "§lThese are the available Misc Items at the Farmer's Market\n"
+						},
+						{
+							"text": "§r10 Bread for 20 Moneyz\n"
+						},
+						{
+							"text": "§r1 Bucket of Milk for 25 Moneyz\n"
+						},
+						{
+							"text": "§r1 Cake for 15 Moneyz\n"
+						},
+						{
+							"text": "§r5 Cookies for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Eggs for 10 Moneyz\n"
+						},
+						{
+							"text": "§r1 Honey Bottle for 10 Moneyz\n"
+						},
+						{
+							"text": "§r10 Honey Comb for 10 Moneyz\n"
+						},
+						{
+							"text": "§r1 Pumpkin Pie for 10 Moneyz\n"
+						}
+					]
+				},
+				"buttons": [
+					{
+						"name": "Bread",
+						"commands": ["/function farmer/bread"]
+					},
+					{
+						"name": "Milk",
+						"commands": ["/function farmer/milk"]
+					},
+					{
+						"name": "Cake",
+						"commands": ["/function farmer/cake"]
+					},
+					{
+						"name": "Cookies",
+						"commands": ["/function farmer/cookie"]
+					},
+					{
+						"name": "Eggs",
+						"commands": ["/function farmer/egg"]
+					},
+					{
+						"name": "Pg. 2",
+						"commands": ["/dialogue open @s @initiator farmer_buy_misc_2"]
+					}
+				]
+			},
+			{
+				"scene_tag": "farmer_buy_misc_2",
+				"npc_name": "Misc",
+				"text": {
+					"rawtext": [
+						{
+							"text": "§lThese are the available Misc Items at the Farmer's Market\n"
+						},
+						{
+							"text": "§r10 Bread for 20 Moneyz\n"
+						},
+						{
+							"text": "§r1 Bucket of Milk for 25 Moneyz\n"
+						},
+						{
+							"text": "§r1 Cake for 15 Moneyz\n"
+						},
+						{
+							"text": "§r5 Cookies for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Eggs for 10 Moneyz\n"
+						},
+						{
+							"text": "§r1 Honey Bottle for 10 Moneyz\n"
+						},
+						{
+							"text": "§r10 Honey Comb for 10 Moneyz\n"
+						},
+						{
+							"text": "§r1 Pumpkin Pie for 10 Moneyz\n"
+						}
+					]
+				},
+				"buttons": [
+					{
+						"name": "Honey Bottle",
+						"commands": ["/function farmer/honey"]
+					},
+					{
+						"name": "Honey Comb",
+						"commands": ["/function farmer/honeycomb"]
+					},
+					{
+						"name": "Pumpkin Pie",
+						"commands": ["/function farmer/pie"]
+					},
+					{
+						"name": "Pg. 1",
+						"commands": ["/dialogue open @s @initiator farmer_buy_misc"]
+					},
+					{
+						"name": "Main Menu",
+						"commands": ["/dialogue open @s @initiator farmers_market"]
+					}
+				]
+			},
+			{
+				"scene_tag": "farmer_buy_plantables",
+				"npc_name": "Plantables",
+				"text": {
+					"rawtext": [
+						{"text": "§lThese are the available Plantables at the Farmer's Market\n"},
+						{"text": "§r5 Bamboo for 5 Moneyz\n"},
+						{"text": "§r5 Beetroot Seeds for 5 Moneyz\n"},
+						{"text": "§r5 Brown Mushrooms for 5 Moneyz\n"},
+						{"text": "§r5 Cacti for 10 Moneyz\n"},
+						{"text": "§r1 Chorus Flower for 150 Moneyz\n"},
+						{"text": "§r5 Cocoa Beans for 5 Moneyz\n"},
+						{"text": "§r5 Crimson Fungi for 10 Moneyz\n"},
+						{"text": "§r5 Kelp for 5 Moneyz\n"},
+						{"text": "§r5 Melon Seeds for 10 Moneyz\n"},
+						{"text": "§r5 Nether Warts for 15 Moneyz\n"},
+						{"text": "§r1 Pitcher Pod for 35 Moneyz\n"},
+						{"text": "§r5 Pumpkin Seeds for 10 Moneyz\n"},
+						{"text": "§r5 Red Mushrooms for 5 Moneyz\n"},
+						{"text": "§r5 Sea Pickles for 5 Moneyz\n"},
+						{"text": "§r1 Torchflower Seeds for 5 Moneyz\n"},
+						{"text": "§r5 Warped Fungi for 10 Moneyz\n"},
+						{"text": "§r5 Wheat Seeds for 10 Moneyz\n"}
+					]
+				},
+				"buttons": [
+					{
+						"name": "Bamboo",
+						"commands": ["/function farmer/plantables/bamboo"]
+					},
+					{
+						"name": "Beetroot",
+						"commands": ["/function farmer/plantables/beetroot_seeds"]
+					},
+					{
+						"name": "Brown Mushroom",
+						"commands": ["/function farmer/plantables/brown_mushroom"]
+					},
+					{
+						"name": "Cactus",
+						"commands": ["/function farmer/plantables/cactus"]
+					},
+					{
+						"name": "Chours Flower",
+						"commands": ["/function farmer/plantables/chorus_flower"]
+					},
+					{
+						"name": "Pg. 2",
+						"commands": ["/dialogue open @s @initiator farmer_buy_plantables_2"]
+					}
+				]
+			},
+			{
+				"scene_tag": "farmer_buy_plantables_2",
+				"npc_name": "Plantables",
+				"text": {
+					"rawtext": [
+						{"text": "§lThese are the available Plantables at the Farmer's Market\n"},
+						{"text": "§r5 Bamboo for 5 Moneyz\n"},
+						{"text": "§r5 Beetroot Seeds for 5 Moneyz\n"},
+						{"text": "§r5 Brown Mushrooms for 5 Moneyz\n"},
+						{"text": "§r5 Cacti for 10 Moneyz\n"},
+						{"text": "§r1 Chorus Flower for 150 Moneyz\n"},
+						{"text": "§r5 Cocoa Beans for 5 Moneyz\n"},
+						{"text": "§r5 Crimson Fungi for 10 Moneyz\n"},
+						{"text": "§r5 Kelp for 5 Moneyz\n"},
+						{"text": "§r5 Melon Seeds for 10 Moneyz\n"},
+						{"text": "§r5 Nether Warts for 15 Moneyz\n"},
+						{"text": "§r1 Pitcher Pod for 35 Moneyz\n"},
+						{"text": "§r5 Pumpkin Seeds for 10 Moneyz\n"},
+						{"text": "§r5 Red Mushrooms for 5 Moneyz\n"},
+						{"text": "§r5 Sea Pickles for 5 Moneyz\n"},
+						{"text": "§r1 Torchflower Seeds for 5 Moneyz\n"},
+						{"text": "§r5 Warped Fungi for 10 Moneyz\n"},
+						{"text": "§r5 Wheat Seeds for 10 Moneyz\n"}
+					]
+				},
+				"buttons": [
+					{
+						"name": "Cocoa Beans",
+						"commands": ["/function farmer/plantables/cocoa_beans"]
+					},
+					{
+						"name": "Crimson Fungus",
+						"commands": ["/function farmer/plantables/crimson_fungus"]
+					},
+					{
+						"name": "Kelp",
+						"commands": ["/function farmer/plantables/kelp"]
+					},
+					{
+						"name": "Melon Seeds",
+						"commands": ["/function farmer/plantables/melon_seeds"]
+					},
+					{
+						"name": "Pg. 1",
+						"commands": ["/dialogue open @s @initiator farmer_buy_plantables"]
+					},
+					{
+						"name": "Pg. 3",
+						"commands": ["/dialogue open @s @initiator farmer_buy_plantables_3"]
+					}
+				]
+			},
+			{
+				"scene_tag": "farmer_buy_plantables_3",
+				"npc_name": "Plantables",
+				"text": {
+					"rawtext": [
+						{"text": "§lThese are the available Plantables at the Farmer's Market\n"},
+						{"text": "§r5 Bamboo for 5 Moneyz\n"},
+						{"text": "§r5 Beetroot Seeds for 5 Moneyz\n"},
+						{"text": "§r5 Brown Mushrooms for 5 Moneyz\n"},
+						{"text": "§r5 Cacti for 10 Moneyz\n"},
+						{"text": "§r1 Chorus Flower for 150 Moneyz\n"},
+						{"text": "§r5 Cocoa Beans for 5 Moneyz\n"},
+						{"text": "§r5 Crimson Fungi for 10 Moneyz\n"},
+						{"text": "§r5 Kelp for 5 Moneyz\n"},
+						{"text": "§r5 Melon Seeds for 10 Moneyz\n"},
+						{"text": "§r5 Nether Warts for 15 Moneyz\n"},
+						{"text": "§r1 Pitcher Pod for 35 Moneyz\n"},
+						{"text": "§r5 Pumpkin Seeds for 10 Moneyz\n"},
+						{"text": "§r5 Red Mushrooms for 5 Moneyz\n"},
+						{"text": "§r5 Sea Pickles for 5 Moneyz\n"},
+						{"text": "§r1 Torchflower Seeds for 5 Moneyz\n"},
+						{"text": "§r5 Warped Fungi for 10 Moneyz\n"},
+						{"text": "§r5 Wheat Seeds for 10 Moneyz\n"}
+					]
+				},
+				"buttons": [
+					{
+						"name": "Nether Warts",
+						"commands": ["/function farmer/plantables/nether_wart"]
+					},
+					{
+						"name": "Pitcher Pod",
+						"commands": ["/function farmer/plantables/pitcher_pod"]
+					},
+					{
+						"name": "Pumpkin Seeds",
+						"commands": ["/function farmer/plantables/pumpkin_seeds"]
+					},
+					{
+						"name": "Red Mushroom",
+						"commands": ["/function farmer/plantables/red_mushroom"]
+					},
+					{
+						"name": "Pg. 2",
+						"commands": ["/dialogue open @s @initiator farmer_buy_plantables_2"]
+					},
+					{
+						"name": "Pg. 4",
+						"commands": ["/dialogue open @s @initiator farmer_buy_plantables_4"]
+					}
+				]
+			},
+			{
+				"scene_tag": "farmer_buy_plantables_4",
+				"npc_name": "Plantables",
+				"text": {
+					"rawtext": [
+						{"text": "§lThese are the available Plantables at the Farmer's Market\n"},
+						{"text": "§r5 Bamboo for 5 Moneyz\n"},
+						{"text": "§r5 Beetroot Seeds for 5 Moneyz\n"},
+						{"text": "§r5 Brown Mushrooms for 5 Moneyz\n"},
+						{"text": "§r5 Cacti for 10 Moneyz\n"},
+						{"text": "§r1 Chorus Flower for 150 Moneyz\n"},
+						{"text": "§r5 Cocoa Beans for 5 Moneyz\n"},
+						{"text": "§r5 Crimson Fungi for 10 Moneyz\n"},
+						{"text": "§r5 Kelp for 5 Moneyz\n"},
+						{"text": "§r5 Melon Seeds for 10 Moneyz\n"},
+						{"text": "§r5 Nether Warts for 15 Moneyz\n"},
+						{"text": "§r1 Pitcher Pod for 35 Moneyz\n"},
+						{"text": "§r5 Pumpkin Seeds for 10 Moneyz\n"},
+						{"text": "§r5 Red Mushrooms for 5 Moneyz\n"},
+						{"text": "§r5 Sea Pickles for 5 Moneyz\n"},
+						{"text": "§r1 Torchflower Seeds for 5 Moneyz\n"},
+						{"text": "§r5 Warped Fungi for 10 Moneyz\n"},
+						{"text": "§r5 Wheat Seeds for 10 Moneyz\n"}
+					]
+				},
+				"buttons": [
+					{
+						"name": "Sea Pickles",
+						"commands": ["/function farmer/plantables/sea_pickle"]
+					},
+					{
+						"name": "Torchflower",
+						"commands": ["/function farmer/plantables/torch_seeds"]
+					},
+					{
+						"name": "Warped Fungus",
+						"commands": ["/function farmer/plantables/warped_fungus"]
+					},
+					{
+						"name": "Wheat Seeds",
+						"commands": ["/function farmer/plantables/wheat_seeds"]
+					},
+					{
+						"name": "Pg. 3",
+						"commands": ["/dialogue open @s @initiator farmer_buy_plantables_3"]
+					},
+					{
+						"name": "Main Menu",
+						"commands": ["/dialogue open @s @initiator farmers_market"]
+					}
+				]
+			},
+			{
+				"scene_tag": "farmer_sell",
+				"npc_name": "Selling",
+				"text": "What would you like to sell?",
+				"buttons": [
+					{
+						"name": "Growables",
+						"commands": ["/dialogue open @s @initiator farmer_sell_growables"]
+					},
+					{
+						"name": "Meats",
+						"commands": ["/dialogue open @s @initiator farmer_sell_meat"]
+					},
+					{
+						"name": "Misc",
+						"commands": ["/dialogue open @s @initiator farmer_sell_misc"]
+					},
+					{
+						"name": "Plantables",
+						"commands": ["/dialogue open @s @initiator farmer_sell_plantables"]
+					}
+				]
+			},
+			{
+				"scene_tag": "farmer_sell_growables",
+				"npc_name": "Growables",
+				"text": {
+					"rawtext": [
+						{
+							"text": "§lThese are the Growables I'll buy from you.\n"
+						},
+						{
+							"text": "§r10 Apples for 10 Moneyz\n"
+						},
+						{
+							"text": "§r10 Beetroot for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Sweet Berries for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Carrots for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Chorus Fruit for 75 Moneyz\n"
+						},
+						{
+							"text": "§r10 Glow Berries for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Melons for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Potatos for 15 Moneyz\n"
+						},
+						{
+							"text": "§r1 Pumpkin for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Sugar Cane for 15 Moneyz\n"
+						},
+						{
+							"text": "§r10 Wheat for 15 Moneyz\n"
+						}
+					]
+				},
+				"buttons": [
+					{
+						"name": "Apples",
+						"commands": ["/function farmer/sell/apple"]
+					},
+					{
+						"name": "Beetroot",
+						"commands": ["/function farmer/sell/beetroot"]
+					},
+					{
+						"name": "Sweet Berries",
+						"commands": ["/function farmer/sell/berries"]
+					},
+					{
+						"name": "Carrots",
+						"commands": ["/function farmer/sell/carrot"]
+					},
+					{
+						"name": "Chours Fruit",
+						"commands": ["/function farmer/sell/chorus_fruit"]
+					},
+					{
+						"name": "Pg. 2",
+						"commands": ["/dialogue open @s @initiator farmer_sell_growables_2"]
+					}
+				]
+			},
+			{
+				"scene_tag": "farmer_sell_growables_2",
+				"npc_name": "Growables",
+				"text": {
+					"rawtext": [
+						{
+							"text": "§lThese are the Growables I'll buy from you.\n"
+						},
+						{
+							"text": "§r10 Apples for 10 Moneyz\n"
+						},
+						{
+							"text": "§r10 Beetroot for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Sweet Berries for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Carrots for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Chorus Fruit for 75 Moneyz\n"
+						},
+						{
+							"text": "§r10 Glow Berries for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Melons for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Potatos for 15 Moneyz\n"
+						},
+						{
+							"text": "§r1 Pumpkin for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Sugar Cane for 15 Moneyz\n"
+						},
+						{
+							"text": "§r10 Wheat for 15 Moneyz\n"
+						}
+					]
+				},
+				"buttons": [
+					{
+						"name": "Glow Berries",
+						"commands": ["/function farmer/sell/glowberries"]
+					},
+					{
+						"name": "Melons",
+						"commands": ["/function farmer/sell/melon"]
+					},
+					{
+						"name": "Potatos",
+						"commands": ["/function farmer/sell/potato"]
+					},
+					{
+						"name": "Pumpkin",
+						"commands": ["/function farmer/sell/pumpkin"]
+					},
+					{
+						"name": "Pg. 1",
+						"commands": ["/dialogue open @s @initiator farmer_sell_growables"]
+					},
+					{
+						"name": "Pg. 3",
+						"commands": ["/dialogue open @s @initiator farmer_sell_growables_3"]
+					}
+				]
+			},
+			{
+				"scene_tag": "farmer_sell_growables_3",
+				"npc_name": "Growables",
+				"text": {
+					"rawtext": [
+						{
+							"text": "§lThese are the Growables I'll buy from you.\n"
+						},
+						{
+							"text": "§r10 Apples for 10 Moneyz\n"
+						},
+						{
+							"text": "§r10 Beetroot for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Sweet Berries for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Carrots for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Chorus Fruit for 75 Moneyz\n"
+						},
+						{
+							"text": "§r10 Glow Berries for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Melons for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Potatos for 15 Moneyz\n"
+						},
+						{
+							"text": "§r1 Pumpkin for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Sugar Cane for 15 Moneyz\n"
+						},
+						{
+							"text": "§r10 Wheat for 15 Moneyz\n"
+						}
+					]
+				},
+				"buttons": [
+					{
+						"name": "Sugar Cane",
+						"commands": ["/function farmer/sell/sugarcane"]
+					},
+					{
+						"name": "Wheat"
+					},
+					{
+						"name": "Pg. 2",
+						"commands": ["/dialogue open @s @initiator farmer_sell_growables_2"]
+					},
+					{
+						"name": "Main Menu",
+						"commands": ["/dialogue open @s @initiator farmers_market"]
+					}
+				],
+				"on_open_commands": ["/function farmer/sell/wheat"]
+			},
+			{
+				"scene_tag": "farmer_sell_meat",
+				"npc_name": "Meats",
+				"text": {
+					"rawtext": [
+						{
+							"text": "§lThese are the Meats I'll buy from you.\n"
+						},
+						{
+							"text": "§r5 Beef for 30 Moneyz\n"
+						},
+						{
+							"text": "§r5 Chicken for 20 Moneyz\n"
+						},
+						{
+							"text": "§r5 COD for 15 Moneyz\n"
+						},
+						{
+							"text": "§r5 Mutton for 25 Moneyz\n"
+						},
+						{
+							"text": "§r5 Porkchop for 15 Moneyz\n"
+						},
+						{
+							"text": "§r5 Rabbit for 20 Moneyz\n"
+						},
+						{
+							"text": "§r5 Salmon for 10 Moneyz\n"
+						}
+					]
+				},
+				"buttons": [
+					{
+						"name": "Beef",
+						"commands": ["/function farmer/sell/beef"]
+					},
+					{
+						"name": "Chicken",
+						"commands": ["/function farmer/sell/chicken"]
+					},
+					{
+						"name": "COD",
+						"commands": ["/function farmer/sell/cod"]
+					},
+					{
+						"name": "Mutton",
+						"commands": ["/function farmer/sell/mutton"]
+					},
+					{
+						"name": "Porkchop",
+						"commands": ["/function farmer/sell/porkchop"]
+					},
+					{
+						"name": "Pg. 2",
+						"commands": ["/dialogue open @s @initiator farmer_sell_meat_2"]
+					}
+				]
+			},
+			{
+				"scene_tag": "farmer_sell_meat_2",
+				"npc_name": "Meats",
+				"text": {
+					"rawtext": [
+						{
+							"text": "§lThese are the Meats I'll buy from you.\n"
+						},
+						{
+							"text": "§r5 Beef for 30 Moneyz\n"
+						},
+						{
+							"text": "§r5 Chicken for 20 Moneyz\n"
+						},
+						{
+							"text": "§r5 COD for 15 Moneyz\n"
+						},
+						{
+							"text": "§r5 Mutton for 25 Moneyz\n"
+						},
+						{
+							"text": "§r5 Porkchop for 15 Moneyz\n"
+						},
+						{
+							"text": "§r5 Rabbit for 20 Moneyz\n"
+						},
+						{
+							"text": "§r5 Salmon for 10 Moneyz\n"
+						}
+					]
+				},
+				"buttons": [
+					{
+						"name": "Rabbit",
+						"commands": ["/function farmer/sell/rabbit"]
+					},
+					{
+						"name": "Salmon",
+						"commands": ["/function farmer/sell/salmon"]
+					},
+					{
+						"name": "Pg. 1",
+						"commands": ["/dialogue open @s @initiator farmer_sell_meat"]
+					},
+					{
+						"name": "Main Menu",
+						"commands": ["/dialogue open @s @initiator farmers_market"]
+					}
+				]
+			},
+			{
+				"scene_tag": "farmer_sell_plantables",
+				"npc_name": "Plantables",
+				"text": {
+					"rawtext": [
+						{"text": "§lThese are the available Plantables at the Farmer's Market\n"},
+						{"text": "§r5 Bamboo for 5 Moneyz\n"},
+						{"text": "§r5 Beetroot Seeds for 5 Moneyz\n"},
+						{"text": "§r5 Brown Mushrooms for 5 Moneyz\n"},
+						{"text": "§r5 Cacti for 10 Moneyz\n"},
+						{"text": "§r1 Chorus Flower for 150 Moneyz\n"},
+						{"text": "§r5 Cocoa Beans for 5 Moneyz\n"},
+						{"text": "§r5 Crimson Fungi for 10 Moneyz\n"},
+						{"text": "§r5 Kelp for 5 Moneyz\n"},
+						{"text": "§r5 Melon Seeds for 10 Moneyz\n"},
+						{"text": "§r5 Nether Warts for 15 Moneyz\n"},
+						{"text": "§r1 Pitcher Pod for 35 Moneyz\n"},
+						{"text": "§r5 Pumpkin Seeds for 10 Moneyz\n"},
+						{"text": "§r5 Red Mushrooms for 5 Moneyz\n"},
+						{"text": "§r5 Sea Pickles for 5 Moneyz\n"},
+						{"text": "§r1 Torchflower Seeds for 5 Moneyz\n"},
+						{"text": "§r5 Warped Fungi for 10 Moneyz\n"},
+						{"text": "§r5 Wheat Seeds for 10 Moneyz\n"}
+					]
+				},
+				"buttons": [
+					{
+						"name": "Bamboo",
+						"commands": ["/function farmer/sell/plantables/bamboo"]
+					},
+					{
+						"name": "Beetroot",
+						"commands": ["/function farmer/sell/plantables/beetroot_seeds"]
+					},
+					{
+						"name": "Brown Mushroom",
+						"commands": ["/function farmer/sell/plantables/brown_mushroom"]
+					},
+					{
+						"name": "Cactus",
+						"commands": ["/function farmer/sell/plantables/cactus"]
+					},
+					{
+						"name": "Chours Flower",
+						"commands": ["/function farmer/sell/plantables/chorus_flower"]
+					},
+					{
+						"name": "Pg. 2",
+						"commands": ["/dialogue open @s @initiator farmer_sell_plantables_2"]
+					}
+				]
+			},
+			{
+				"scene_tag": "farmer_sell_plantables_2",
+				"npc_name": "Plantables",
+				"text": {
+					"rawtext": [
+						{"text": "§lThese are the available Plantables at the Farmer's Market\n"},
+						{"text": "§r5 Bamboo for 5 Moneyz\n"},
+						{"text": "§r5 Beetroot Seeds for 5 Moneyz\n"},
+						{"text": "§r5 Brown Mushrooms for 5 Moneyz\n"},
+						{"text": "§r5 Cacti for 10 Moneyz\n"},
+						{"text": "§r1 Chorus Flower for 150 Moneyz\n"},
+						{"text": "§r5 Cocoa Beans for 5 Moneyz\n"},
+						{"text": "§r5 Crimson Fungi for 10 Moneyz\n"},
+						{"text": "§r5 Kelp for 5 Moneyz\n"},
+						{"text": "§r5 Melon Seeds for 10 Moneyz\n"},
+						{"text": "§r5 Nether Warts for 15 Moneyz\n"},
+						{"text": "§r1 Pitcher Pod for 35 Moneyz\n"},
+						{"text": "§r5 Pumpkin Seeds for 10 Moneyz\n"},
+						{"text": "§r5 Red Mushrooms for 5 Moneyz\n"},
+						{"text": "§r5 Sea Pickles for 5 Moneyz\n"},
+						{"text": "§r1 Torchflower Seeds for 5 Moneyz\n"},
+						{"text": "§r5 Warped Fungi for 10 Moneyz\n"},
+						{"text": "§r5 Wheat Seeds for 10 Moneyz\n"}
+					]
+				},
+				"buttons": [
+					{
+						"name": "Cocoa Beans",
+						"commands": ["/function farmer/sell/plantables/cocoa_beans"]
+					},
+					{
+						"name": "Crimson Fungus",
+						"commands": ["/function farmer/sell/plantables/crimson_fungus"]
+					},
+					{
+						"name": "Kelp",
+						"commands": ["/function farmer/sell/plantables/kelp"]
+					},
+					{
+						"name": "Melon Seeds",
+						"commands": ["/function farmer/sell/plantables/melon_seeds"]
+					},
+					{
+						"name": "Pg. 1",
+						"commands": ["/dialogue open @s @initiator farmer_sell_plantables"]
+					},
+					{
+						"name": "Pg. 3",
+						"commands": ["/dialogue open @s @initiator farmer_sell_plantables_3"]
+					}
+				]
+			},
+			{
+				"scene_tag": "farmer_sell_plantables_3",
+				"npc_name": "Plantables",
+				"text": {
+					"rawtext": [
+						{"text": "§lThese are the available Plantables at the Farmer's Market\n"},
+						{"text": "§r5 Bamboo for 5 Moneyz\n"},
+						{"text": "§r5 Beetroot Seeds for 5 Moneyz\n"},
+						{"text": "§r5 Brown Mushrooms for 5 Moneyz\n"},
+						{"text": "§r5 Cacti for 10 Moneyz\n"},
+						{"text": "§r1 Chorus Flower for 150 Moneyz\n"},
+						{"text": "§r5 Cocoa Beans for 5 Moneyz\n"},
+						{"text": "§r5 Crimson Fungi for 10 Moneyz\n"},
+						{"text": "§r5 Kelp for 5 Moneyz\n"},
+						{"text": "§r5 Melon Seeds for 10 Moneyz\n"},
+						{"text": "§r5 Nether Warts for 15 Moneyz\n"},
+						{"text": "§r1 Pitcher Pod for 35 Moneyz\n"},
+						{"text": "§r5 Pumpkin Seeds for 10 Moneyz\n"},
+						{"text": "§r5 Red Mushrooms for 5 Moneyz\n"},
+						{"text": "§r5 Sea Pickles for 5 Moneyz\n"},
+						{"text": "§r1 Torchflower Seeds for 5 Moneyz\n"},
+						{"text": "§r5 Warped Fungi for 10 Moneyz\n"},
+						{"text": "§r5 Wheat Seeds for 10 Moneyz\n"}
+					]
+				},
+				"buttons": [
+					{
+						"name": "Nether Warts",
+						"commands": ["/function farmer/sell/plantables/nether_wart"]
+					},
+					{
+						"name": "Pitcher Pod",
+						"commands": ["/function farmer/sell/plantables/pitcher_pod"]
+					},
+					{
+						"name": "Pumpkin Seeds",
+						"commands": ["/function farmer/sell/plantables/pumpkin_seeds"]
+					},
+					{
+						"name": "Red Mushroom",
+						"commands": ["/function farmer/sell/plantables/red_mushroom"]
+					},
+					{
+						"name": "Pg. 2",
+						"commands": ["/dialogue open @s @initiator farmer_sell_plantables_2"]
+					},
+					{
+						"name": "Pg. 4",
+						"commands": ["/dialogue open @s @initiator farmer_sell_plantables_4"]
+					}
+				]
+			},
+			{
+				"scene_tag": "farmer_sell_plantables_4",
+				"npc_name": "Plantables",
+				"text": {
+					"rawtext": [
+						{"text": "§lThese are the available Plantables at the Farmer's Market\n"},
+						{"text": "§r5 Bamboo for 5 Moneyz\n"},
+						{"text": "§r5 Beetroot Seeds for 5 Moneyz\n"},
+						{"text": "§r5 Brown Mushrooms for 5 Moneyz\n"},
+						{"text": "§r5 Cacti for 10 Moneyz\n"},
+						{"text": "§r1 Chorus Flower for 150 Moneyz\n"},
+						{"text": "§r5 Cocoa Beans for 5 Moneyz\n"},
+						{"text": "§r5 Crimson Fungi for 10 Moneyz\n"},
+						{"text": "§r5 Kelp for 5 Moneyz\n"},
+						{"text": "§r5 Melon Seeds for 10 Moneyz\n"},
+						{"text": "§r5 Nether Warts for 15 Moneyz\n"},
+						{"text": "§r1 Pitcher Pod for 35 Moneyz\n"},
+						{"text": "§r5 Pumpkin Seeds for 10 Moneyz\n"},
+						{"text": "§r5 Red Mushrooms for 5 Moneyz\n"},
+						{"text": "§r5 Sea Pickles for 5 Moneyz\n"},
+						{"text": "§r1 Torchflower Seeds for 5 Moneyz\n"},
+						{"text": "§r5 Warped Fungi for 10 Moneyz\n"},
+						{"text": "§r5 Wheat Seeds for 10 Moneyz\n"}
+					]
+				},
+				"buttons": [
+					{
+						"name": "Sea Pickles",
+						"commands": ["/function farmer/sell/plantables/sea_pickle"]
+					},
+					{
+						"name": "Torchflower",
+						"commands": ["/function farmer/sell/plantables/torch_seeds"]
+					},
+					{
+						"name": "Warped Fungus",
+						"commands": ["/function farmer/sell/plantables/warped_fungus"]
+					},
+					{
+						"name": "Wheat Seeds",
+						"commands": ["/function farmer/sell/plantables/wheat_seeds"]
+					},
+					{
+						"name": "Pg. 3",
+						"commands": ["/dialogue open @s @initiator farmer_sell_plantables_3"]
+					},
+					{
+						"name": "Main Menu",
+						"commands": ["/dialogue open @s @initiator farmers_market"]
+					}
+				]
+			},
+			{
+				"scene_tag": "farmer_sell_misc",
+				"npc_name": "Misc",
+				"text": {
+					"rawtext": [
+						{
+							"text": "§lThese are the Misc Items I'll buy from you.\n"
+						},
+						{
+							"text": "§r10 Bread for 20 Moneyz\n"
+						},
+						{
+							"text": "§r1 Bucket of Milk for 25 Moneyz\n"
+						},
+						{
+							"text": "§r1 Cake for 15 Moneyz\n"
+						},
+						{
+							"text": "§r5 Cookies for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Eggs for 10 Moneyz\n"
+						},
+						{
+							"text": "§r1 Honey Bottle for 10 Moneyz\n"
+						},
+						{
+							"text": "§r10 Honey Comb for 10 Moneyz\n"
+						},
+						{
+							"text": "§r1 Pumpkin Pie for 10 Moneyz\n"
+						}
+					]
+				},
+				"buttons": [
+					{
+						"name": "Bread",
+						"commands": ["/function farmer/sell/bread"]
+					},
+					{
+						"name": "Milk",
+						"commands": ["/function farmer/sell/milk"]
+					},
+					{
+						"name": "Cake",
+						"commands": ["/function farmer/sell/cake"]
+					},
+					{
+						"name": "Cookies",
+						"commands": ["/function farmer/sell/cookie"]
+					},
+					{
+						"name": "Eggs",
+						"commands": ["/function farmer/sell/egg"]
+					},
+					{
+						"name": "Pg. 2",
+						"commands": ["/dialogue open @s @initiator farmer_sell_misc_2"]
+					}
+				]
+			},
+			{
+				"scene_tag": "farmer_sell_misc_2",
+				"npc_name": "Misc",
+				"text": {
+					"rawtext": [
+						{
+							"text": "§lThese are the Misc Items I'll buy from you.\n"
+						},
+						{
+							"text": "§r10 Bread for 20 Moneyz\n"
+						},
+						{
+							"text": "§r1 Bucket of Milk for 25 Moneyz\n"
+						},
+						{
+							"text": "§r1 Cake for 15 Moneyz\n"
+						},
+						{
+							"text": "§r5 Cookies for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Eggs for 10 Moneyz\n"
+						},
+						{
+							"text": "§r1 Honey Bottle for 10 Moneyz\n"
+						},
+						{
+							"text": "§r10 Honey Comb for 10 Moneyz\n"
+						},
+						{
+							"text": "§r1 Pumpkin Pie for 10 Moneyz\n"
+						}
+					]
+				},
+				"buttons": [
+					{
+						"name": "Honey Bottle",
+						"commands": ["/function farmer/sell/honey"]
+					},
+					{
+						"name": "Honey Comb",
+						"commands": ["/function farmer/sell/honeycomb"]
+					},
+					{
+						"name": "Pumpkin Pie",
+						"commands": ["/function farmer/sell/pie"]
+					},
+					{
+						"name": "Pg. 1",
+						"commands": ["/dialogue open @s @initiator farmer_sell_misc"]
+					},
+					{
+						"name": "Main Menu",
+						"commands": ["/dialogue open @s @initiator farmers_market"]
+					}
+				]
+			}
+		]
+	}
+}
