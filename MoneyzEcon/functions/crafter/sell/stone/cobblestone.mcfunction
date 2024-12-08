@@ -6,7 +6,7 @@ playsound random.levelup @initiator[hasitem={item=cobblestone,quantity=64..}] ~ 
 
 tell @initiator[hasitem={item=cobblestone,quantity=64..}] §aYou can sell 64 Cobblestone!
 
-scoreboard players add @initiator[hasitem={item=cobblestone,quantity=64..}] Moneyz 32
+scoreboard players add @initiator[hasitem={item=cobblestone,quantity=64..}] Moneyz 8
 
 tell @initiator[hasitem={item=cobblestone,quantity=64..}] §aSold 64 Cobblestone!
 

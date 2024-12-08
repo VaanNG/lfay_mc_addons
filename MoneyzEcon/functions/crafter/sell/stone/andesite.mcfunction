@@ -1,13 +1,13 @@
-playsound note.bassattack @initiator[hasitem={item=andesite,quantity=..4}] ~ ~ ~
+playsound note.bassattack @initiator[hasitem={item=andesite,quantity=..63}] ~ ~ ~
 
-tell @initiator[hasitem={item=andesite,quantity=..4}] §cYou can't sell 5 Andesite!
+tell @initiator[hasitem={item=andesite,quantity=..63}] §cYou can't sell 64 Andesite!
 
-playsound random.levelup @initiator[hasitem={item=andesite,quantity=5..}] ~ ~ ~
+playsound random.levelup @initiator[hasitem={item=andesite,quantity=64..}] ~ ~ ~
 
-tell @initiator[hasitem={item=andesite,quantity=5..}] §aYou can sell 5 Andesite!
+tell @initiator[hasitem={item=andesite,quantity=64..}] §aYou can sell 64 Andesite!
 
-scoreboard players add @initiator[hasitem={item=andesite,quantity=5..}] Moneyz 5
+scoreboard players add @initiator[hasitem={item=andesite,quantity=64..}] Moneyz 16
 
-tell @initiator[hasitem={item=andesite,quantity=5..}] §aSold 5 Andesite!
+tell @initiator[hasitem={item=andesite,quantity=64..}] §aSold 64 Andesite!
 
-clear @initiator[hasitem={item=andesite,quantity=5..}] andesite 0 5
+clear @initiator[hasitem={item=andesite,quantity=64..}] andesite 0 64

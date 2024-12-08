@@ -45,16 +45,16 @@
 							"text": "§r§lBlocks:\n"
 						},
 						{
-							"text": "§r15 Dirts for 5 Moneyz\n"
+							"text": "§r64 Dirts for 8 Moneyz\n"
 						},
 						{
 							"text": "§r10 Gravel for 5 Moneyz\n"
 						},
 						{
-							"text": "§r5 Red Sands for 10 Moneyz\n"
+							"text": "§r64 Red Sands for 16 Moneyz\n"
 						},
 						{
-							"text": "§r5 Sands for 5 Moneyz\n"
+							"text": "§r64 Sands for 8 Moneyz\n"
 						}
 					]
 				},
@@ -90,7 +90,7 @@
 							"text": "§r§lStones:\n"
 						},
 						{
-							"text": "§r5 Andesite for 5 Moneyz\n"
+							"text": "§r64 Andesite for 32 Moneyz\n"
 					    },
 						{
 							"text": "§r10 Blackstone for 15 Moneyz\n"
@@ -99,25 +99,25 @@
 							"text": "§r15 Cobbled Deepslate for 15 Moneyz\n"
 					    },
 						{
-							"text": "§r64 Cobblestone for 32 Moneyz\n"
+							"text": "§r64 Cobblestone for 16 Moneyz\n"
 					    },
 						{
 							"text": "§r5 Deepslate for 10 Moneyz\n"
 					    },
 						{
-							"text": "§r5 Diorite for 5 Moneyz\n"
+							"text": "§r64 Diorite for 32 Moneyz\n"
 					    },
 						{
 							"text": "§r10 End Stone for 20 Moneyz\n"
 					    },
 						{
-							"text": "§r5 Granite for 5 Moneyz\n"
+							"text": "§r64 Granite for 32 Moneyz\n"
 					    },
 						{
-							"text": "§r15 Netherrack for 5 Moneyz\n"
+							"text": "§r64 Netherrack for 32 Moneyz\n"
 					    },
 						{
-							"text": "§r10 Stone for 10 Moneyz\n"
+							"text": "§r64 Stone for 32 Moneyz\n"
 					    }
 					]
 				},
@@ -157,7 +157,7 @@
 							"text": "§r§lStones:\n"
 						},
 						{
-							"text": "§r5 Andesite for 5 Moneyz\n"
+							"text": "§r64 Andesite for 32 Moneyz\n"
 					    },
 						{
 							"text": "§r10 Blackstone for 15 Moneyz\n"
@@ -166,25 +166,25 @@
 							"text": "§r15 Cobbled Deepslate for 15 Moneyz\n"
 					    },
 						{
-							"text": "§r20 Cobblestone for 10 Moneyz\n"
+							"text": "§r64 Cobblestone for 16 Moneyz\n"
 					    },
 						{
 							"text": "§r5 Deepslate for 10 Moneyz\n"
 					    },
 						{
-							"text": "§r5 Diorite for 5 Moneyz\n"
+							"text": "§r64 Diorite for 32 Moneyz\n"
 					    },
 						{
 							"text": "§r10 End Stone for 20 Moneyz\n"
 					    },
 						{
-							"text": "§r5 Granite for 5 Moneyz\n"
+							"text": "§r64 Granite for 32 Moneyz\n"
 					    },
 						{
-							"text": "§r15 Netherrack for 5 Moneyz\n"
+							"text": "§r64 Netherrack for 32 Moneyz\n"
 					    },
 						{
-							"text": "§r10 Stone for 10 Moneyz\n"
+							"text": "§r64 Stone for 32 Moneyz\n"
 					    }
 					]
 				},
@@ -224,7 +224,7 @@
 							"text": "§r§lStones:\n"
 						},
 						{
-							"text": "§r5 Andesite for 5 Moneyz\n"
+							"text": "§r64 Andesite for 32 Moneyz\n"
 					    },
 						{
 							"text": "§r10 Blackstone for 15 Moneyz\n"
@@ -233,25 +233,25 @@
 							"text": "§r15 Cobbled Deepslate for 15 Moneyz\n"
 					    },
 						{
-							"text": "§r20 Cobblestone for 10 Moneyz\n"
+							"text": "§r64 Cobblestone for 16 Moneyz\n"
 					    },
 						{
 							"text": "§r5 Deepslate for 10 Moneyz\n"
 					    },
 						{
-							"text": "§r5 Diorite for 5 Moneyz\n"
+							"text": "§r64 Diorite for 32 Moneyz\n"
 					    },
 						{
 							"text": "§r10 End Stone for 20 Moneyz\n"
 					    },
 						{
-							"text": "§r5 Granite for 5 Moneyz\n"
+							"text": "§r64 Granite for 32 Moneyz\n"
 					    },
 						{
-							"text": "§r15 Netherrack for 5 Moneyz\n"
+							"text": "§r64 Netherrack for 32 Moneyz\n"
 					    },
 						{
-							"text": "§r10 Stone for 10 Moneyz\n"
+							"text": "§r64 Stone for 32 Moneyz\n"
 					    }
 					]
 				},
@@ -928,16 +928,16 @@
 							"text": "§r§lBlocks:\n"
 						},
 						{
-							"text": "§r15 Dirts for 5 Moneyz\n"
+							"text": "§r64 Dirts for 8 Moneyz\n"
 						},
 						{
 							"text": "§r10 Gravel for 5 Moneyz\n"
 						},
 						{
-							"text": "§r5 Red Sands for 10 Moneyz\n"
+							"text": "§r32 Red Sands for 8 Moneyz\n"
 						},
 						{
-							"text": "§r5 Sands for 5 Moneyz\n"
+							"text": "§r64 Sands for 8 Moneyz\n"
 						}
 					]
 				},
@@ -973,7 +973,7 @@
 							"text": "§r§lStones:\n"
 						},
 						{
-							"text": "§r5 Andesite for 5 Moneyz\n"
+							"text": "§r64 Andesite for 16 Moneyz\n"
 					    },
 						{
 							"text": "§r10 Blackstone for 15 Moneyz\n"
@@ -982,25 +982,25 @@
 							"text": "§r15 Cobbled Deepslate for 15 Moneyz\n"
 					    },
 						{
-							"text": "§r20 Cobblestone for 10 Moneyz\n"
+							"text": "§r64 Cobblestone for 8 Moneyz\n"
 					    },
 						{
 							"text": "§r5 Deepslate for 10 Moneyz\n"
 					    },
 						{
-							"text": "§r5 Diorite for 5 Moneyz\n"
+							"text": "§r64 Diorite for 16 Moneyz\n"
 					    },
 						{
 							"text": "§r10 End Stone for 20 Moneyz\n"
 					    },
 						{
-							"text": "§r5 Granite for 5 Moneyz\n"
+							"text": "§r64 Granite for 16 Moneyz\n"
 					    },
 						{
-							"text": "§r15 Netherrack for 5 Moneyz\n"
+							"text": "§r64 Netherrack for 16 Moneyz\n"
 					    },
 						{
-							"text": "§r10 Stone for 10 Moneyz\n"
+							"text": "§r64 Stone for 16 Moneyz\n"
 					    }
 					]
 				},
@@ -1040,7 +1040,7 @@
 							"text": "§r§lStones:\n"
 						},
 						{
-							"text": "§r5 Andesite for 5 Moneyz\n"
+							"text": "§r64 Andesite for 16 Moneyz\n"
 					    },
 						{
 							"text": "§r10 Blackstone for 15 Moneyz\n"
@@ -1049,25 +1049,25 @@
 							"text": "§r15 Cobbled Deepslate for 15 Moneyz\n"
 					    },
 						{
-							"text": "§r64 Cobblestone for 32 Moneyz\n"
+							"text": "§r64 Cobblestone for 8 Moneyz\n"
 					    },
 						{
 							"text": "§r5 Deepslate for 10 Moneyz\n"
 					    },
 						{
-							"text": "§r5 Diorite for 5 Moneyz\n"
+							"text": "§r64 Diorite for 16 Moneyz\n"
 					    },
 						{
 							"text": "§r10 End Stone for 20 Moneyz\n"
 					    },
 						{
-							"text": "§r5 Granite for 5 Moneyz\n"
+							"text": "§r64 Granite for 16 Moneyz\n"
 					    },
 						{
-							"text": "§r15 Netherrack for 5 Moneyz\n"
+							"text": "§r64 Netherrack for 16 Moneyz\n"
 					    },
 						{
-							"text": "§r10 Stone for 10 Moneyz\n"
+							"text": "§r64 Stone for 16 Moneyz\n"
 					    }
 					]
 				},
@@ -1107,7 +1107,7 @@
 							"text": "§r§lStones:\n"
 						},
 						{
-							"text": "§r5 Andesite for 5 Moneyz\n"
+							"text": "§r64 Andesite for 16 Moneyz\n"
 					    },
 						{
 							"text": "§r10 Blackstone for 15 Moneyz\n"
@@ -1116,25 +1116,25 @@
 							"text": "§r15 Cobbled Deepslate for 15 Moneyz\n"
 					    },
 						{
-							"text": "§r20 Cobblestone for 10 Moneyz\n"
+							"text": "§r64 Cobblestone for 8 Moneyz\n"
 					    },
 						{
 							"text": "§r5 Deepslate for 10 Moneyz\n"
 					    },
 						{
-							"text": "§r5 Diorite for 5 Moneyz\n"
+							"text": "§r64 Diorite for 16 Moneyz\n"
 					    },
 						{
 							"text": "§r10 End Stone for 20 Moneyz\n"
 					    },
 						{
-							"text": "§r5 Granite for 5 Moneyz\n"
+							"text": "§r64 Granite for 16 Moneyz\n"
 					    },
 						{
-							"text": "§r15 Netherrack for 5 Moneyz\n"
+							"text": "§r64 Netherrack for 16 Moneyz\n"
 					    },
 						{
-							"text": "§r10 Stone for 10 Moneyz\n"
+							"text": "§r64 Stone for 16 Moneyz\n"
 					    }
 					]
 				},

@@ -1,13 +1,13 @@
-playsound note.bassattack @initiator[hasitem={item=netherrack,quantity=..14}] ~ ~ ~
+playsound note.bassattack @initiator[hasitem={item=netherrack,quantity=..63}] ~ ~ ~
 
-tell @initiator[hasitem={item=netherrack,quantity=..14}] §cYou can't sell 15 Netherrack!
+tell @initiator[hasitem={item=netherrack,quantity=..63}] §cYou can't sell 64 Netherrack!
 
-playsound random.levelup @initiator[hasitem={item=netherrack,quantity=15..}] ~ ~ ~
+playsound random.levelup @initiator[hasitem={item=netherrack,quantity=64..}] ~ ~ ~
 
-tell @initiator[hasitem={item=netherrack,quantity=15..}] §aYou can sell 15 Netherrack!
+tell @initiator[hasitem={item=netherrack,quantity=64..}] §aYou can sell 64 Netherrack!
 
-scoreboard players add @initiator[hasitem={item=netherrack,quantity=15..}] Moneyz 5
+scoreboard players add @initiator[hasitem={item=netherrack,quantity=64..}] Moneyz 16
 
-tell @initiator[hasitem={item=netherrack,quantity=15..}] §aSold 15 Netherrack!
+tell @initiator[hasitem={item=netherrack,quantity=64..}] §aSold 64 Netherrack!
 
-clear @initiator[hasitem={item=netherrack,quantity=15..}] netherrack 0 15
+clear @initiator[hasitem={item=netherrack,quantity=64..}] netherrack 0 64
