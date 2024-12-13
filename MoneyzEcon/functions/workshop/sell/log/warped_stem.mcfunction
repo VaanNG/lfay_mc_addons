@@ -1,14 +1,14 @@
 
-playsound note.bassattack @initiator[hasitem={item=warped_stem,quantity=..4}] ~ ~ ~
+playsound note.bassattack @initiator[hasitem={item=warped_stem,quantity=..31}] ~ ~ ~
 
-tell @initiator[hasitem={item=warped_stem,quantity=..4}] §cYou can't sell 5 Warped Stems!
+tell @initiator[hasitem={item=warped_stem,quantity=..31}] §cYou can't sell 32 Warped Stems!
 
-playsound random.levelup @initiator[hasitem={item=warped_stem,quantity=5..}] ~ ~ ~
+playsound random.levelup @initiator[hasitem={item=warped_stem,quantity=32..}] ~ ~ ~
 
-tell @initiator[hasitem={item=warped_stem,quantity=5..}] §aYou can sell 5 Warped Stems!
+tell @initiator[hasitem={item=warped_stem,quantity=32..}] §aYou can sell 32 Warped Stems!
 
-scoreboard players add @initiator[hasitem={item=warped_stem,quantity=5..}] Moneyz 20
+scoreboard players add @initiator[hasitem={item=warped_stem,quantity=5..}] Moneyz 16
 
-tell @initiator[hasitem={item=warped_stem,quantity=5..}] §aSold 5 Warped Stems!
+tell @initiator[hasitem={item=warped_stem,quantity=32..}] §aSold 32 Warped Stems!
 
-clear @initiator[hasitem={item=warped_stem,quantity=5..}] warped_stem 0 5
+clear @initiator[hasitem={item=warped_stem,quantity=32..}] warped_stem 0 32

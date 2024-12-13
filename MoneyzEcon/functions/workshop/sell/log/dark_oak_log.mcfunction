@@ -1,13 +1,13 @@
-playsound note.bassattack @initiator[hasitem={item=dark_oak_log,quantity=..4}] ~ ~ ~
+playsound note.bassattack @initiator[hasitem={item=dark_oak_log,quantity=..31}] ~ ~ ~
 
-tell @initiator[hasitem={item=dark_oak_log,quantity=..4}] §cYou can't sell 5 Dark Oak Logs!
+tell @initiator[hasitem={item=dark_oak_log,quantity=..31}] §cYou can't sell 32 Dark Oak Logs!
 
-playsound random.levelup @initiator[hasitem={item=dark_oak_log,quantity=5..}] ~ ~ ~
+playsound random.levelup @initiator[hasitem={item=dark_oak_log,quantity=32..}] ~ ~ ~
 
-tell @initiator[hasitem={item=dark_oak_log,quantity=5..}] §aYou can sell 5 Dark Oak Logs!
+tell @initiator[hasitem={item=dark_oak_log,quantity=32..}] §aYou can sell 32 Dark Oak Logs!
 
-scoreboard players add @initiator[hasitem={item=dark_oak_log,quantity=5..}] Moneyz 10
+scoreboard players add @initiator[hasitem={item=dark_oak_log,quantity=32..}] Moneyz 8
 
-tell @initiator[hasitem={item=dark_oak_log,quantity=5..}] §aSold 5 Dark Oak Logs!
+tell @initiator[hasitem={item=dark_oak_log,quantity=32..}] §aSold 32 Dark Oak Logs!
 
-clear @initiator[hasitem={item=dark_oak_log,quantity=5..}] dark_oak_log 0 5
+clear @initiator[hasitem={item=dark_oak_log,quantity=32..}] dark_oak_log 0 32

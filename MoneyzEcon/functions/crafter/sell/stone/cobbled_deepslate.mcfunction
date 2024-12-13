@@ -1,13 +1,13 @@
-playsound note.bassattack @initiator[hasitem={item=cobbled_deepslate,quantity=..14}] ~ ~ ~
+playsound note.bassattack @initiator[hasitem={item=cobbled_deepslate,quantity=..63}] ~ ~ ~
 
-tell @initiator[hasitem={item=cobbled_deepslate,quantity=..14}] §cYou can't sell 15 Cobbled Deepslate!
+tell @initiator[hasitem={item=cobbled_deepslate,quantity=..63}] §cYou can't sell 64 Cobbled Deepslate!
 
-playsound random.levelup @initiator[hasitem={item=cobbled_deepslate,quantity=15..}] ~ ~ ~
+playsound random.levelup @initiator[hasitem={item=cobbled_deepslate,quantity=64..}] ~ ~ ~
 
-tell @initiator[hasitem={item=cobbled_deepslate,quantity=15..}] §aYou can sell 15 Cobbled Deepslate!
+tell @initiator[hasitem={item=cobbled_deepslate,quantity=64..}] §aYou can sell 64 Cobbled Deepslate!
 
-scoreboard players add @initiator[hasitem={item=cobbled_deepslate,quantity=15..}] Moneyz 15
+scoreboard players add @initiator[hasitem={item=cobbled_deepslate,quantity=64..}] Moneyz 16
 
-tell @initiator[hasitem={item=cobbled_deepslate,quantity=15..}] §aSold 15 Cobbled Deepslate!
+tell @initiator[hasitem={item=cobbled_deepslate,quantity=64..}] §aSold 64 Cobbled Deepslate!
 
-clear @initiator[hasitem={item=cobbled_deepslate,quantity=15..}] cobbled_deepslate 0 15
+clear @initiator[hasitem={item=cobbled_deepslate,quantity=64..}] cobbled_deepslate 0 64

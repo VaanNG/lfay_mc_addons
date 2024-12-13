@@ -37,6 +37,10 @@
 					{
 						"name": "Plantables",
 						"commands": ["/dialogue open @s @initiator farmer_buy_plantables"]
+					},
+					{
+						"name": "Flowers",
+						"commands": ["/dialogue open @s @initiator farmer_buy_flowers"]
 					}
 				]
 			},
@@ -251,7 +255,7 @@
 							"text": "§lThese are the available Meats at the Farmer's Market\n"
 						},
 						{
-							"text": "§r5 Beef for 30 Moneyz\n"
+							"text": "§r10 Beef for 30 Moneyz\n"
 						},
 						{
 							"text": "§r5 Chicken for 20 Moneyz\n"
@@ -260,7 +264,7 @@
 							"text": "§r5 COD for 15 Moneyz\n"
 						},
 						{
-							"text": "§r5 Mutton for 25 Moneyz\n"
+							"text": "§r10 Mutton for 25 Moneyz\n"
 						},
 						{
 							"text": "§r5 Porkchop for 15 Moneyz\n"
@@ -309,7 +313,7 @@
 							"text": "§lThese are the available Meats at the Farmer's Market\n"
 						},
 						{
-							"text": "§r5 Beef for 30 Moneyz\n"
+							"text": "§r10 Beef for 30 Moneyz\n"
 						},
 						{
 							"text": "§r5 Chicken for 20 Moneyz\n"
@@ -318,7 +322,7 @@
 							"text": "§r5 COD for 15 Moneyz\n"
 						},
 						{
-							"text": "§r5 Mutton for 25 Moneyz\n"
+							"text": "§r10 Mutton for 25 Moneyz\n"
 						},
 						{
 							"text": "§r5 Porkchop for 15 Moneyz\n"
@@ -669,6 +673,624 @@
 					{
 						"name": "Pg. 3",
 						"commands": ["/dialogue open @s @initiator farmer_buy_plantables_3"]
+					},
+					{
+						"name": "Main Menu",
+						"commands": ["/dialogue open @s @initiator farmers_market"]
+					}
+				]
+			},
+			{
+				"scene_tag": "farmer_buy_flowers",
+				"npc_name": "Flowers",
+				"text": {
+					"rawtext": [
+						{
+						"text": "§lThese are the available flowers at the Farmer's Market.\n"
+					    },
+					    {
+						"text": "§r5 Alliums for 15 Moneyz\n"
+						},
+						{
+							"text": "§r5 Azure Bluets for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Blue Orchids for 10 Moneyz\n"
+						},
+						{
+							"text": "§r5 Cornflowers for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Dandelions for 5 Moneyz\n"
+						},
+						//{
+							//"text": "§r1 Open Eye Blossom for 10 Moneyz\n"
+						//},
+						{
+							"text": "§r1 Flowering Azalea for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Lilacs for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Lily of the Valleys for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Orange Tulip for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Oxeye Daisies for 15 Moneyz\n"
+						},
+						{
+							"text": "§r5 Peony for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Pink Petals for 10 Moneyz\n"
+						},
+						{
+							"text": "§r5 Pink Tulips for 5 Moneyz\n"
+						},
+						{
+							"text": "§r1 Pitcher Plant for 40 Moneyz\n"
+						},
+						{
+							"text": "§r5 Poppies for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Red Tulips for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Rose Bushes for 5 Moneyz\n"
+						},
+						{
+							"text": "§r1 Spore Blossom for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Sunflowers for 5 Moneyz\n"
+						},
+						{
+							"text": "§rTorchflower for 40 Moneyz\n"
+						},
+						{
+							"text": "§r5 White Tulip for 5 Moneyz\n"
+						},
+						{
+						"text": "§r1 Wither Rose for 5 Moneyz\n"}
+					]
+				},
+				"buttons": [
+					{
+						"name": "Allium",
+						"commands": ["/function farmer/flower/allium"]
+					},
+					{
+						"name": "Aure Bluet",
+						"commands": ["/function farmer/flower/azure_bluet"]
+					},
+					{
+						"name": "Blue Orchid",
+						"commands": ["/function farmer/flower/blue_orchid"]
+					},
+					{
+						"name": "Cornflower",
+						"commands": ["/function farmer/flower/cornflower"]
+					},
+					{
+						"name": "Dandelion",
+						"commands": ["/function farmer/flower/dandelion"]
+					},
+					{
+						"name": "Pg. 2",
+						"commands": ["/dialogue open @s @initiator farmer_buy_flowers_2"]
+					}
+				]
+			},
+			{
+				"scene_tag": "farmer_buy_flowers_2",
+				"npc_name": "Flowers",
+				"text": {
+					"rawtext": [
+						{
+						"text": "§lThese are the available flowers at the Farmer's Market.\n"
+					    },
+					    {
+						"text": "§r5 Alliums for 15 Moneyz\n"
+						},
+						{
+							"text": "§r5 Azure Bluets for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Blue Orchids for 10 Moneyz\n"
+						},
+						{
+							"text": "§r5 Cornflowers for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Dandelions for 5 Moneyz\n"
+						},
+						//{
+							//"text": "§r1 Open Eye Blossom for 10 Moneyz\n"
+						//},
+						{
+							"text": "§r1 Flowering Azalea for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Lilacs for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Lily of the Valleys for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Orange Tulip for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Oxeye Daisies for 15 Moneyz\n"
+						},
+						{
+							"text": "§r5 Peony for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Pink Petals for 10 Moneyz\n"
+						},
+						{
+							"text": "§r5 Pink Tulips for 5 Moneyz\n"
+						},
+						{
+							"text": "§r1 Pitcher Plant for 40 Moneyz\n"
+						},
+						{
+							"text": "§r5 Poppies for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Red Tulips for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Rose Bushes for 5 Moneyz\n"
+						},
+						{
+							"text": "§r1 Spore Blossom for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Sunflowers for 5 Moneyz\n"
+						},
+						{
+							"text": "§rTorchflower for 40 Moneyz\n"
+						},
+						{
+							"text": "§r5 White Tulip for 5 Moneyz\n"
+						},
+						{
+						"text": "§r1 Wither Rose for 5 Moneyz\n"}
+					]
+				},
+				"buttons": [
+					{
+						"name": "Azalea",
+						"commands": ["/function farmer/flower/flowering_azalea"]
+					},
+					{
+						"name": "Lilac",
+						"commands": ["/function farmer/flower/lilac"]
+					},
+					{
+						"name": "Lily Valley",
+						"commands": ["/function farmer/flower/lily_valley"]
+					},
+					//{
+//						"name": "Eyeblossom",
+//						"commands": ["/function farmer/flower/open_eyeblossom"]
+//					},
+					{
+						"name": "Pg. 1",
+						"commands": ["/dialogue open @s @initiator farmer_buy_flowers"]
+					},
+					{
+						"name": "Pg. 3",
+						"commands": ["/dialogue open @s @initiator farmer_buy_flowers_3"]
+					}
+				]
+			},
+			{
+				"scene_tag": "farmer_buy_flowers_3",
+				"npc_name": "Flowers",
+				"text": {
+					"rawtext": [
+						{
+						"text": "§lThese are the available flowers at the Farmer's Market.\n"
+					    },
+					    {
+						"text": "§r5 Alliums for 15 Moneyz\n"
+						},
+						{
+							"text": "§r5 Azure Bluets for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Blue Orchids for 10 Moneyz\n"
+						},
+						{
+							"text": "§r5 Cornflowers for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Dandelions for 5 Moneyz\n"
+						},
+						//{
+							//"text": "§r1 Open Eye Blossom for 10 Moneyz\n"
+						//},
+						{
+							"text": "§r1 Flowering Azalea for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Lilacs for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Lily of the Valleys for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Orange Tulip for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Oxeye Daisies for 15 Moneyz\n"
+						},
+						{
+							"text": "§r5 Peony for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Pink Petals for 10 Moneyz\n"
+						},
+						{
+							"text": "§r5 Pink Tulips for 5 Moneyz\n"
+						},
+						{
+							"text": "§r1 Pitcher Plant for 40 Moneyz\n"
+						},
+						{
+							"text": "§r5 Poppies for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Red Tulips for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Rose Bushes for 5 Moneyz\n"
+						},
+						{
+							"text": "§r1 Spore Blossom for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Sunflowers for 5 Moneyz\n"
+						},
+						{
+							"text": "§rTorchflower for 40 Moneyz\n"
+						},
+						{
+							"text": "§r5 White Tulip for 5 Moneyz\n"
+						},
+						{
+						"text": "§r1 Wither Rose for 5 Moneyz\n"}
+					]
+				},
+				"buttons": [
+					{
+						"name": "Orange Tulip",
+						"commands": ["/function farmer/flower/orange_tulip"]
+					},
+					{
+						"name": "Oxeye Daisy",
+						"commands": ["/function farmer/flower/oxeye_daisy"]
+					},
+					{
+						"name": "Peony",
+						"commands": ["/function farmer/flower/peony"]
+					},
+					{
+						"name": "Pink Petals",
+						"commands": ["/function farmer/flower/pink_petals"]
+					},
+					{
+						"name": "Pg. 2",
+						"commands": ["/dialogue open @s @initiator farmer_buy_flowers_2"]
+					},
+					{
+						"name": "Pg. 4",
+						"commands": ["/dialogue open @s @initiator farmer_buy_flowers_4"]
+					}
+				]
+			},
+			{
+				"scene_tag": "farmer_buy_flowers_4",
+				"npc_name": "Flowers",
+				"text": {
+					"rawtext": [
+						{
+						"text": "§lThese are the available flowers at the Farmer's Market.\n"
+					    },
+					    {
+						"text": "§r5 Alliums for 15 Moneyz\n"
+						},
+						{
+							"text": "§r5 Azure Bluets for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Blue Orchids for 10 Moneyz\n"
+						},
+						{
+							"text": "§r5 Cornflowers for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Dandelions for 5 Moneyz\n"
+						},
+						//{
+							//"text": "§r1 Open Eye Blossom for 10 Moneyz\n"
+						//},
+						{
+							"text": "§r1 Flowering Azalea for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Lilacs for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Lily of the Valleys for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Orange Tulip for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Oxeye Daisies for 15 Moneyz\n"
+						},
+						{
+							"text": "§r5 Peony for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Pink Petals for 10 Moneyz\n"
+						},
+						{
+							"text": "§r5 Pink Tulips for 5 Moneyz\n"
+						},
+						{
+							"text": "§r1 Pitcher Plant for 40 Moneyz\n"
+						},
+						{
+							"text": "§r5 Poppies for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Red Tulips for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Rose Bushes for 5 Moneyz\n"
+						},
+						{
+							"text": "§r1 Spore Blossom for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Sunflowers for 5 Moneyz\n"
+						},
+						{
+							"text": "§rTorchflower for 40 Moneyz\n"
+						},
+						{
+							"text": "§r5 White Tulip for 5 Moneyz\n"
+						},
+						{
+						"text": "§r1 Wither Rose for 5 Moneyz\n"}
+					]
+				},
+				"buttons": [
+					{
+						"name": "Pitcher Plant",
+						"commands": ["/function farmer/flower/pitcher_plant"]
+					},
+					{
+						"name": "Poppy",
+						"commands": ["/function farmer/flower/poppy"]
+					},
+					{
+						"name": "Red Tulip",
+						"commands": ["/function farmer/flower/red_tulip"]
+					},
+					{
+						"name": "Rose Bush",
+						"commands": ["/function farmer/flower/rose_bush"]
+					},
+					{
+						"name": "Pg. 3",
+						"commands": ["/dialogue open @s @initiator farmer_buy_flowers_3"]
+					},
+					{
+						"name": "Pg. 5",
+						"commands": ["/dialogue open @s @initiator farmer_buy_flowers_5"]
+					}
+				]
+			},
+			{
+				"scene_tag": "farmer_buy_flowers_5",
+				"npc_name": "Flowers",
+				"text": {
+					"rawtext": [
+						{
+						"text": "§lThese are the available flowers at the Farmer's Market.\n"
+					    },
+					    {
+						"text": "§r5 Alliums for 15 Moneyz\n"
+						},
+						{
+							"text": "§r5 Azure Bluets for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Blue Orchids for 10 Moneyz\n"
+						},
+						{
+							"text": "§r5 Cornflowers for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Dandelions for 5 Moneyz\n"
+						},
+						//{
+							//"text": "§r1 Open Eye Blossom for 10 Moneyz\n"
+						//},
+						{
+							"text": "§r1 Flowering Azalea for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Lilacs for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Lily of the Valleys for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Orange Tulip for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Oxeye Daisies for 15 Moneyz\n"
+						},
+						{
+							"text": "§r5 Peony for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Pink Petals for 10 Moneyz\n"
+						},
+						{
+							"text": "§r5 Pink Tulips for 5 Moneyz\n"
+						},
+						{
+							"text": "§r1 Pitcher Plant for 40 Moneyz\n"
+						},
+						{
+							"text": "§r5 Poppies for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Red Tulips for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Rose Bushes for 5 Moneyz\n"
+						},
+						{
+							"text": "§r1 Spore Blossom for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Sunflowers for 5 Moneyz\n"
+						},
+						{
+							"text": "§rTorchflower for 40 Moneyz\n"
+						},
+						{
+							"text": "§r5 White Tulip for 5 Moneyz\n"
+						},
+						{
+						"text": "§r1 Wither Rose for 5 Moneyz\n"}
+					]
+				},
+				"buttons": [
+					{
+						"name": "Spore Blossom",
+						"commands": ["/function farmer/flower/spore_blossom"]
+					},
+					{
+						"name": "Sunflower",
+						"commands": ["/function farmer/flower/sunflower"]
+					},
+					{
+						"name": "Torchflower",
+						"commands": ["/function farmer/flower/torchflower"]
+					},
+					{
+						"name": "White",
+						"commands": ["/function farmer/flower/white_tulip"]
+					},
+					{
+						"name": "Pg. 4",
+						"commands": ["/dialogue open @s @initiator farmer_buy_flowers_4"]
+					},
+					{
+						"name": "Pg. 6",
+						"commands": ["/dialogue open @s @initiator farmer_buy_flowers_6"]
+					}
+				]
+			},
+			{
+				"scene_tag": "farmer_buy_flowers_6",
+				"npc_name": "Flowers",
+				"text": {
+					"rawtext": [
+						{
+						"text": "§lThese are the available flowers at the Farmer's Market.\n"
+					    },
+					    {
+						"text": "§r5 Alliums for 15 Moneyz\n"
+						},
+						{
+							"text": "§r5 Azure Bluets for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Blue Orchids for 10 Moneyz\n"
+						},
+						{
+							"text": "§r5 Cornflowers for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Dandelions for 5 Moneyz\n"
+						},
+						//{
+							//"text": "§r1 Open Eye Blossom for 10 Moneyz\n"
+						//},
+						{
+							"text": "§r1 Flowering Azalea for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Lilacs for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Lily of the Valleys for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Orange Tulip for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Oxeye Daisies for 15 Moneyz\n"
+						},
+						{
+							"text": "§r5 Peony for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Pink Petals for 10 Moneyz\n"
+						},
+						{
+							"text": "§r5 Pink Tulips for 5 Moneyz\n"
+						},
+						{
+							"text": "§r1 Pitcher Plant for 40 Moneyz\n"
+						},
+						{
+							"text": "§r5 Poppies for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Red Tulips for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Rose Bushes for 5 Moneyz\n"
+						},
+						{
+							"text": "§r1 Spore Blossom for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Sunflowers for 5 Moneyz\n"
+						},
+						{
+							"text": "§rTorchflower for 40 Moneyz\n"
+						},
+						{
+							"text": "§r5 White Tulip for 5 Moneyz\n"
+						},
+						{
+						"text": "§r1 Wither Rose for 5 Moneyz\n"}
+					]
+				},
+				"buttons": [
+					{
+						"name": "Wither Rose",
+						"commands": ["/function farmer/flower/wither_rose"]
+					},
+					{
+						"name": "Pg. 5",
+						"commands": ["/dialogue open @s @initiator farmer_buy_flowers_5"]
 					},
 					{
 						"name": "Main Menu",
@@ -1328,6 +1950,624 @@
 					{
 						"name": "Pg. 1",
 						"commands": ["/dialogue open @s @initiator farmer_sell_misc"]
+					},
+					{
+						"name": "Main Menu",
+						"commands": ["/dialogue open @s @initiator farmers_market"]
+					}
+				]
+			},
+			{
+				"scene_tag": "farmer_sell_flowers",
+				"npc_name": "Flowers",
+				"text": {
+					"rawtext": [
+						{
+						"text": "§lThese are the available flowers to sell at the Farmer's Market.\n"
+					    },
+					    {
+						"text": "§r5 Alliums for 15 Moneyz\n"
+						},
+						{
+							"text": "§r5 Azure Bluets for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Blue Orchids for 10 Moneyz\n"
+						},
+						{
+							"text": "§r5 Cornflowers for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Dandelions for 5 Moneyz\n"
+						},
+						//{
+							//"text": "§r1 Open Eye Blossom for 10 Moneyz\n"
+						//},
+						{
+							"text": "§r1 Flowering Azalea for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Lilacs for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Lily of the Valleys for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Orange Tulip for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Oxeye Daisies for 15 Moneyz\n"
+						},
+						{
+							"text": "§r5 Peony for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Pink Petals for 10 Moneyz\n"
+						},
+						{
+							"text": "§r5 Pink Tulips for 5 Moneyz\n"
+						},
+						{
+							"text": "§r1 Pitcher Plant for 40 Moneyz\n"
+						},
+						{
+							"text": "§r5 Poppies for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Red Tulips for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Rose Bushes for 5 Moneyz\n"
+						},
+						{
+							"text": "§r1 Spore Blossom for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Sunflowers for 5 Moneyz\n"
+						},
+						{
+							"text": "§rTorchflower for 40 Moneyz\n"
+						},
+						{
+							"text": "§r5 White Tulip for 5 Moneyz\n"
+						},
+						{
+						"text": "§r1 Wither Rose for 5 Moneyz\n"}
+					]
+				},
+				"buttons": [
+					{
+						"name": "Allium",
+						"commands": ["/function farmer/sell/flower/allium"]
+					},
+					{
+						"name": "Aure Bluet",
+						"commands": ["/function farmer/sell/flower/azure_bluet"]
+					},
+					{
+						"name": "Blue Orchid",
+						"commands": ["/function farmer/sell/flower/blue_orchid"]
+					},
+					{
+						"name": "Cornflower",
+						"commands": ["/function farmer/sell/flower/cornflower"]
+					},
+					{
+						"name": "Dandelion",
+						"commands": ["/function farmer/sell/flower/dandelion"]
+					},
+					{
+						"name": "Pg. 2",
+						"commands": ["/dialogue open @s @initiator farmer_sell_flowers_2"]
+					}
+				]
+			},
+			{
+				"scene_tag": "farmer_sell_flowers_2",
+				"npc_name": "Flowers",
+				"text": {
+					"rawtext": [
+						{
+						"text": "§lThese are the available flowers to sell at the Farmer's Market.\n"
+					    },
+					    {
+						"text": "§r5 Alliums for 15 Moneyz\n"
+						},
+						{
+							"text": "§r5 Azure Bluets for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Blue Orchids for 10 Moneyz\n"
+						},
+						{
+							"text": "§r5 Cornflowers for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Dandelions for 5 Moneyz\n"
+						},
+						//{
+							//"text": "§r1 Open Eye Blossom for 10 Moneyz\n"
+						//},
+						{
+							"text": "§r1 Flowering Azalea for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Lilacs for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Lily of the Valleys for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Orange Tulip for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Oxeye Daisies for 15 Moneyz\n"
+						},
+						{
+							"text": "§r5 Peony for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Pink Petals for 10 Moneyz\n"
+						},
+						{
+							"text": "§r5 Pink Tulips for 5 Moneyz\n"
+						},
+						{
+							"text": "§r1 Pitcher Plant for 40 Moneyz\n"
+						},
+						{
+							"text": "§r5 Poppies for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Red Tulips for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Rose Bushes for 5 Moneyz\n"
+						},
+						{
+							"text": "§r1 Spore Blossom for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Sunflowers for 5 Moneyz\n"
+						},
+						{
+							"text": "§rTorchflower for 40 Moneyz\n"
+						},
+						{
+							"text": "§r5 White Tulip for 5 Moneyz\n"
+						},
+						{
+						"text": "§r1 Wither Rose for 5 Moneyz\n"}
+					]
+				},
+				"buttons": [
+					{
+						"name": "Azalea",
+						"commands": ["/function farmer/sell/flower/sell/flowering_azalea"]
+					},
+					{
+						"name": "Lilac",
+						"commands": ["/function farmer/sell/flower/lilac"]
+					},
+					{
+						"name": "Lily Valley",
+						"commands": ["/function farmer/sell/flower/lily_valley"]
+					},
+					{
+						"name": "Eyeblossom",
+						"commands": ["/function farmer/sell/flower/open_eyeblossom"]
+					},
+					{
+						"name": "Pg. 1",
+						"commands": ["/dialogue open @s @initiator farmer_sell_flowers"]
+					},
+					{
+						"name": "Pg. 3",
+						"commands": ["/dialogue open @s @initiator farmer_sell_flowers_3"]
+					}
+				]
+			},
+			{
+				"scene_tag": "farmer_sell_flowers_3",
+				"npc_name": "Flowers",
+				"text": {
+					"rawtext": [
+						{
+						"text": "§lThese are the available flowers to sell at the Farmer's Market.\n"
+					    },
+					    {
+						"text": "§r5 Alliums for 15 Moneyz\n"
+						},
+						{
+							"text": "§r5 Azure Bluets for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Blue Orchids for 10 Moneyz\n"
+						},
+						{
+							"text": "§r5 Cornflowers for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Dandelions for 5 Moneyz\n"
+						},
+						//{
+							//"text": "§r1 Open Eye Blossom for 10 Moneyz\n"
+						//},
+						{
+							"text": "§r1 Flowering Azalea for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Lilacs for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Lily of the Valleys for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Orange Tulip for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Oxeye Daisies for 15 Moneyz\n"
+						},
+						{
+							"text": "§r5 Peony for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Pink Petals for 10 Moneyz\n"
+						},
+						{
+							"text": "§r5 Pink Tulips for 5 Moneyz\n"
+						},
+						{
+							"text": "§r1 Pitcher Plant for 40 Moneyz\n"
+						},
+						{
+							"text": "§r5 Poppies for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Red Tulips for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Rose Bushes for 5 Moneyz\n"
+						},
+						{
+							"text": "§r1 Spore Blossom for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Sunflowers for 5 Moneyz\n"
+						},
+						{
+							"text": "§rTorchflower for 40 Moneyz\n"
+						},
+						{
+							"text": "§r5 White Tulip for 5 Moneyz\n"
+						},
+						{
+						"text": "§r1 Wither Rose for 5 Moneyz\n"}
+					]
+				},
+				"buttons": [
+					{
+						"name": "Orange Tulip",
+						"commands": ["/function farmer/sell/flower/orange_tulip"]
+					},
+					{
+						"name": "Oxeye Daisy",
+						"commands": ["/function farmer/sell/flower/oxeye_daisy"]
+					},
+					{
+						"name": "Peony",
+						"commands": ["/function farmer/sell/flower/peony"]
+					},
+					{
+						"name": "Pink Petals",
+						"commands": ["/function farmer/sell/flower/pink_petals"]
+					},
+					{
+						"name": "Pg. 2",
+						"commands": ["/dialogue open @s @initiator farmer_sell_flowers_2"]
+					},
+					{
+						"name": "Pg. 4",
+						"commands": ["/dialogue open @s @initiator farmer_sell_flowers_4"]
+					}
+				]
+			},
+			{
+				"scene_tag": "farmer_sell_flowers_4",
+				"npc_name": "Flowers",
+				"text": {
+					"rawtext": [
+						{
+						"text": "§lThese are the available flowers to sell at the Farmer's Market.\n"
+					    },
+					    {
+						"text": "§r5 Alliums for 15 Moneyz\n"
+						},
+						{
+							"text": "§r5 Azure Bluets for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Blue Orchids for 10 Moneyz\n"
+						},
+						{
+							"text": "§r5 Cornflowers for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Dandelions for 5 Moneyz\n"
+						},
+						//{
+							//"text": "§r1 Open Eye Blossom for 10 Moneyz\n"
+						//},
+						{
+							"text": "§r1 Flowering Azalea for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Lilacs for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Lily of the Valleys for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Orange Tulip for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Oxeye Daisies for 15 Moneyz\n"
+						},
+						{
+							"text": "§r5 Peony for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Pink Petals for 10 Moneyz\n"
+						},
+						{
+							"text": "§r5 Pink Tulips for 5 Moneyz\n"
+						},
+						{
+							"text": "§r1 Pitcher Plant for 40 Moneyz\n"
+						},
+						{
+							"text": "§r5 Poppies for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Red Tulips for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Rose Bushes for 5 Moneyz\n"
+						},
+						{
+							"text": "§r1 Spore Blossom for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Sunflowers for 5 Moneyz\n"
+						},
+						{
+							"text": "§rTorchflower for 40 Moneyz\n"
+						},
+						{
+							"text": "§r5 White Tulip for 5 Moneyz\n"
+						},
+						{
+						"text": "§r1 Wither Rose for 5 Moneyz\n"}
+					]
+				},
+				"buttons": [
+					{
+						"name": "Pitcher Plant",
+						"commands": ["/function farmer/sell/flower/pitcher_plant"]
+					},
+					{
+						"name": "Poppy",
+						"commands": ["/function farmer/sell/flower/poppy"]
+					},
+					{
+						"name": "Red Tulip",
+						"commands": ["/function farmer/sell/flower/red_tulip"]
+					},
+					{
+						"name": "Rose Bush",
+						"commands": ["/function farmer/sell/flower/rose_bush"]
+					},
+					{
+						"name": "Pg. 3",
+						"commands": ["/dialogue open @s @initiator farmer_sell_flowers_3"]
+					},
+					{
+						"name": "Pg. 5",
+						"commands": ["/dialogue open @s @initiator farmer_sell_flowers_5"]
+					}
+				]
+			},
+			{
+				"scene_tag": "farmer_sell_flowers_5",
+				"npc_name": "Flowers",
+				"text": {
+					"rawtext": [
+						{
+						"text": "§lThese are the available flowers to sell at the Farmer's Market.\n"
+					    },
+					    {
+						"text": "§r5 Alliums for 15 Moneyz\n"
+						},
+						{
+							"text": "§r5 Azure Bluets for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Blue Orchids for 10 Moneyz\n"
+						},
+						{
+							"text": "§r5 Cornflowers for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Dandelions for 5 Moneyz\n"
+						},
+						//{
+							//"text": "§r1 Open Eye Blossom for 10 Moneyz\n"
+						//},
+						{
+							"text": "§r1 Flowering Azalea for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Lilacs for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Lily of the Valleys for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Orange Tulip for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Oxeye Daisies for 15 Moneyz\n"
+						},
+						{
+							"text": "§r5 Peony for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Pink Petals for 10 Moneyz\n"
+						},
+						{
+							"text": "§r5 Pink Tulips for 5 Moneyz\n"
+						},
+						{
+							"text": "§r1 Pitcher Plant for 40 Moneyz\n"
+						},
+						{
+							"text": "§r5 Poppies for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Red Tulips for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Rose Bushes for 5 Moneyz\n"
+						},
+						{
+							"text": "§r1 Spore Blossom for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Sunflowers for 5 Moneyz\n"
+						},
+						{
+							"text": "§rTorchflower for 40 Moneyz\n"
+						},
+						{
+							"text": "§r5 White Tulip for 5 Moneyz\n"
+						},
+						{
+						"text": "§r1 Wither Rose for 5 Moneyz\n"}
+					]
+				},
+				"buttons": [
+					{
+						"name": "Spore Blossom",
+						"commands": ["/function farmer/sell/flower/spore_blossom"]
+					},
+					{
+						"name": "Sunflower",
+						"commands": ["/function farmer/sell/flower/sunflower"]
+					},
+					{
+						"name": "Torchflower",
+						"commands": ["/function farmer/sell/flower/torchflower"]
+					},
+					{
+						"name": "White",
+						"commands": ["/function farmer/sell/flower/white_tulip"]
+					},
+					{
+						"name": "Pg. 4",
+						"commands": ["/dialogue open @s @initiator farmer_sell_flowers_4"]
+					},
+					{
+						"name": "Pg. 6",
+						"commands": ["/dialogue open @s @initiator farmer_sell_flowers_6"]
+					}
+				]
+			},
+			{
+				"scene_tag": "farmer_sell_flowers_6",
+				"npc_name": "Flowers",
+				"text": {
+					"rawtext": [
+						{
+						"text": "§lThese are the available flowers to sell at the Farmer's Market.\n"
+					    },
+					    {
+						"text": "§r5 Alliums for 15 Moneyz\n"
+						},
+						{
+							"text": "§r5 Azure Bluets for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Blue Orchids for 10 Moneyz\n"
+						},
+						{
+							"text": "§r5 Cornflowers for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Dandelions for 5 Moneyz\n"
+						},
+						//{
+							//"text": "§r1 Open Eye Blossom for 10 Moneyz\n"
+						//},
+						{
+							"text": "§r1 Flowering Azalea for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Lilacs for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Lily of the Valleys for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Orange Tulip for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Oxeye Daisies for 15 Moneyz\n"
+						},
+						{
+							"text": "§r5 Peony for 5 Moneyz\n"
+						},
+						{
+							"text": "§r10 Pink Petals for 10 Moneyz\n"
+						},
+						{
+							"text": "§r5 Pink Tulips for 5 Moneyz\n"
+						},
+						{
+							"text": "§r1 Pitcher Plant for 40 Moneyz\n"
+						},
+						{
+							"text": "§r5 Poppies for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Red Tulips for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Rose Bushes for 5 Moneyz\n"
+						},
+						{
+							"text": "§r1 Spore Blossom for 5 Moneyz\n"
+						},
+						{
+							"text": "§r5 Sunflowers for 5 Moneyz\n"
+						},
+						{
+							"text": "§rTorchflower for 40 Moneyz\n"
+						},
+						{
+							"text": "§r5 White Tulip for 5 Moneyz\n"
+						},
+						{
+						"text": "§r1 Wither Rose for 5 Moneyz\n"}
+					]
+				},
+				"buttons": [
+					{
+						"name": "Wither Rose",
+						"commands": ["/function farmer/sell/flower/wither_rose"]
+					},
+					{
+						"name": "Pg. 5",
+						"commands": ["/dialogue open @s @initiator farmer_sell_flowers_5"]
 					},
 					{
 						"name": "Main Menu",

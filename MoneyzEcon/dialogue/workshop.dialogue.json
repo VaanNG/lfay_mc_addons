@@ -104,7 +104,7 @@
             {
 				"scene_tag": "workshop_buy_logs",
 				"npc_name": "Misc",
-				"text": "§lThese are the logs for sell.\n§r§lLogs:\n§r5 Oak Logs for 10 Moneyz\n§r5 Spruce Logs for 10 Moneyz\n§r5 Birch Logs for 10 Moneyz\n§r5 Jungle Logs for 10 Moneyz\n§r5 Acacia Logs for 10 Moneyz\n§r5 Dark Oak Logs for 10 Moneyz\n§r5 Mangrove Logs for 15 Moneyz\n§r5 Cherry Logs for 15 Moneyz\n§r5 Crimson Stems for 20 Moneyz\n§r5 Warped Stems for 20 Moneyz\n",
+				"text": "§lThese are the logs for sell.\n§r§lLogs:\n§r64 Oak Logs for 16 Moneyz\n§r64 Spruce Logs for 16 Moneyz\n§r64 Birch Logs for 16 Moneyz\n§r64 Jungle Logs for 16 Moneyz\n§r64 Acacia Logs for 16 Moneyz\n§r64 Dark Oak Logs for 16 Moneyz\n§r64 Mangrove Logs for 16 Moneyz\n§r64 Cherry Logs for 24 Moneyz\n§r64 Crimson Stems for 32 Moneyz\n§r64 Warped Stems for 32 Moneyz\n§r64 Pale Oak Log for 32 Moneyz\n",
 				"buttons": [
 					{
 						"name": "Oak",
@@ -135,7 +135,7 @@
 			{
 				"scene_tag": "workshop_buy_logs_2",
 				"npc_name": "Misc",
-				"text": "§lThese are the logs for sale.\n§r§lLogs:\n§r5 Oak Logs for 10 Moneyz\n§r5 Spruce Logs for 10 Moneyz\n§r5 Birch Logs for 10 Moneyz\n§r5 Jungle Logs for 10 Moneyz\n§r5 Acacia Logs for 10 Moneyz\n§r5 Dark Oak Logs for 10 Moneyz\n§r5 Mangrove Logs for 15 Moneyz\n§r5 Cherry Logs for 15 Moneyz\n§r5 Crimson Stems for 20 Moneyz\n§r5 Warped Stems for 20 Moneyz\n",
+				"text": "§lThese are the logs for sale.\n§r§lLogs:\n§r64 Oak Logs for 16 Moneyz\n§r64 Spruce Logs for 16 Moneyz\n§r64 Birch Logs for 16 Moneyz\n§r64 Jungle Logs for 16 Moneyz\n§r64 Acacia Logs for 16 Moneyz\n§r64 Dark Oak Logs for 16 Moneyz\n§r64 Mangrove Logs for 16 Moneyz\n§r64 Cherry Logs for 24 Moneyz\n§r64 Crimson Stems for 32 Moneyz\n§r64 Warped Stems for 32 Moneyz\n§r64 Pale Oak Log for 32 Moneyz\n",
 				"buttons": [
 					{
 						"name": "Dark Oak",
@@ -166,11 +166,15 @@
 			{
 				"scene_tag": "workshop_buy_logs_3",
 				"npc_name": "Misc",
-				"text": "§lThese are the logs for sale.\n§r§lLogs:\n§r5 Oak Logs for 10 Moneyz\n§r5 Spruce Logs for 10 Moneyz\n§r5 Birch Logs for 10 Moneyz\n§r5 Jungle Logs for 10 Moneyz\n§r5 Acacia Logs for 10 Moneyz\n§r5 Dark Oak Logs for 10 Moneyz\n§r5 Mangrove Logs for 15 Moneyz\n§r5 Cherry Logs for 15 Moneyz\n§r5 Crimson Stems for 20 Moneyz\n§r5 Warped Stems for 20 Moneyz\n",
+				"text": "§lThese are the logs for sale.\n§r§lLogs:\n§r64 Oak Logs for 16 Moneyz\n§r64 Spruce Logs for 16 Moneyz\n§r64 Birch Logs for 16 Moneyz\n§r64 Jungle Logs for 16 Moneyz\n§r64 Acacia Logs for 16 Moneyz\n§r64 Dark Oak Logs for 16 Moneyz\n§r64 Mangrove Logs for 16 Moneyz\n§r64 Cherry Logs for 24 Moneyz\n§r64 Crimson Stems for 32 Moneyz\n§r64 Warped Stems for 32 Moneyz\n§r64 Pale Oak Log for 32 Moneyz\n",
 				"buttons": [
 					{
 						"name": "Warped",
 						"commands": ["/function workshop/log/warped_stem"]
+					},
+					{
+						"name": "Pale Oak",
+						"commands": ["/function workshop/log/pale_oak_log"]
 					},
 					{
 						"name": "Pg. 2",
