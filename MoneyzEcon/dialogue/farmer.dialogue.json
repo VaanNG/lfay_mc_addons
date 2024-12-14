@@ -1312,12 +1312,16 @@
 						"commands": ["/dialogue open @s @initiator farmer_sell_meat"]
 					},
 					{
-						"name": "Misc",
-						"commands": ["/dialogue open @s @initiator farmer_sell_misc"]
-					},
-					{
 						"name": "Plantables",
 						"commands": ["/dialogue open @s @initiator farmer_sell_plantables"]
+					},
+					{
+						"name": "Flowers",
+						"commands": ["/dialogue open @s @initiator farmer_sell_flowers"]
+					},
+					{
+						"name": "Misc",
+						"commands": ["/dialogue open @s @initiator farmer_sell_misc"]
 					}
 				]
 			},

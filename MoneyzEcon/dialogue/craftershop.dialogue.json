@@ -290,10 +290,6 @@
 					{
 						"name": "Stones",
 						"commands": ["/dialogue open @s @initiator crafter_sell_stones"]
-					},
-					{
-						"name": "Flowers",
-						"commands": ["/dialogue open @s @initiator crafter_sell_flowers"]
 					}
 				]
 			},
